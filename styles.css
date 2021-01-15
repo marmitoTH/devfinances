@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --body-background-color: #f0f2f5;
+  --header-background-color: linear-gradient(0deg, rgba(136, 109, 255, 0.425), transparent),
+                             linear-gradient(45deg, #5ca6fc, #d08bf8);
+
+  --text-primary-color: #222222;
+  --text-secondary-color: white;
+  --text-income-color: #12a454;
+  --text-outcome-color: #e92929;
+
+  --row-background-color: white;
+
+  --glass-background-color: rgba(195, 195, 195, 0.25);
+  --glass-text-color: rgba(78, 78, 78, 0.788);
+  --glass-blur-intensity: 50px;
+
+  --rainbow-background-color: linear-gradient(0deg, rgba(154, 77, 255, 0.705), transparent 99%),
+                              linear-gradient(45deg, #4999ff, #d08efa);
+
+  --border-radius: .5rem;
+}
+
+body {
+  background-color: var(--body-background-color);
+  font: 1rem 'Poppins', sans-serif;
+}
+
+header {
+  padding: 2rem 0 12rem 0;
+  text-align: center;
+  color: var(--text-primary-color);
+  background: var(--header-background-color);
+}
+
+header h1 {
+  font-weight: 400;
+  color: var(--text-secondary-color);
+}
+
+.container {
+  margin: auto;
+  width: min(90vw, 80rem);
+}
+
+.glass {
+  color: var(--glass-text-color);
+  border: 1px solid rgba(255, 255, 255, .25);
+  background-color: var(--glass-background-color);
+  backdrop-filter: blur(var(--glass-blur-intensity));
+  -webkit-backdrop-filter: blur(var(--glass-blur-intensity));
+}
+
+.rainbow {
+  color: var(--text-secondary-color);
+  background: var(--rainbow-background-color);
+}
+
+.card {
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.card + .card {
+  margin-top: 2rem;
+}
+
+.card p {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.card h3 {
+  font-weight: 400;
+}
+
+#balance {
+  margin-top: -8rem;
+}
+
+thead {
+  text-align: left;
+}
+
+#data-table {
+  width: 100%;
+  border-spacing: 0 1rem;
+}
+
+table td, table th {
+  color: var(--text-primary-color);
+  font-size: 1.2rem;
+  padding: 1.5rem 2rem;
+}
+
+table tbody td {
+  background: var(--row-background-color);
+}
+
+table tbody td.income {
+  color: var(--text-income-color);
+}
+
+table tbody td.outcome {
+  color: var(--text-outcome-color);
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child {
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+table thead tr th:last-child,
+table tbody tr td:last-child {
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
