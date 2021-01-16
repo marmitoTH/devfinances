@@ -8,9 +8,6 @@
   font-size: 62.5%;
 
   --body-background-color: #f0f2f5;
-  --header-background-color: linear-gradient(0deg, rgba(136, 109, 255, 0.425), transparent),
-                             linear-gradient(45deg, #5ca6fc, #d08bf8);
-
   --text-primary-color: #222222;
   --text-secondary-color: white;
   --text-income-color: #12a454;
