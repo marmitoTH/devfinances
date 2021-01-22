@@ -19,8 +19,8 @@
   --glass-text-color: rgba(78, 78, 78, 0.788);
   --glass-blur-intensity: 50px;
 
-  --rainbow-background-color: linear-gradient(0deg, rgba(154, 77, 255, 0.705), transparent 99%),
-                              linear-gradient(45deg, #4999ff, #d08efa);
+  --rainbow-background-color: linear-gradient(0deg, #30a068, transparent 99%),
+                              linear-gradient(45deg, #82c97b, #50b895);
 
   --border-radius: .5rem;
 }
