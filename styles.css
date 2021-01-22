@@ -30,6 +30,21 @@ body {
   font: 1rem 'Poppins', sans-serif;
 }
 
+a {
+  color: #49AA26;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3dd705;
+}
+
+.button.new {
+  font-size: 1.4rem;
+  display: inline-block;
+  margin: 2rem 0;
+}
+
 header {
   padding: 2rem 0 12rem 0;
   text-align: center;
