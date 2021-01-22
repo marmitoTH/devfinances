@@ -42,7 +42,7 @@ a:hover {
 .button.new {
   font-size: 1.4rem;
   display: inline-block;
-  margin: 2rem 0;
+  margin-top: 3rem;
 }
 
 header {
