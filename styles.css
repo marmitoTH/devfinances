@@ -107,7 +107,9 @@ thead {
 
 #data-table {
   width: 100%;
+  display: block;
   border-spacing: 0 1rem;
+  overflow-x: auto;
 }
 
 table td, table th {
