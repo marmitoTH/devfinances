@@ -105,11 +105,15 @@ thead {
   text-align: left;
 }
 
+#transaction {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
 #data-table {
   width: 100%;
-  display: block;
   border-spacing: 0 1rem;
-  overflow-x: auto;
 }
 
 table td, table th {
