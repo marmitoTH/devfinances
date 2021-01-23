@@ -132,9 +132,9 @@ input {
 }
 
 .input-group.actions {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
 }
 
 .glass {
