@@ -220,6 +220,10 @@ table tbody tr td:last-child {
 }
 
 @media(min-width: 800px) {
+  :root {
+    font-size: 70%;
+  }
+
   #balance {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
