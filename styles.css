@@ -73,13 +73,41 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .modal {
   padding: 2.4rem;
   background: var(--body-background-color);
+}
+
+#form {
+  max-width: 50rem;
+}
+
+#form h2 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: .2rem;
+  padding: 1.3rem;
+}
+
+.input-group {
+  margin-top: 1rem;
+}
+
+.input-group small {
+  opacity: .4;
+}
+
+.input-group.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .glass {
