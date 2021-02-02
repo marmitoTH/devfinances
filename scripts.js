@@ -65,6 +65,19 @@ const DOM = {
       </td>
     `
     return html
+  },
+  updateBalance() {
+    document
+      .getElementById('incomeDisplay')
+      .innerHTML = Transaction.incomes
+
+    document
+      .getElementById('outcomeDisplay')
+      .innerHTML = Transaction.expenses
+
+    document
+      .getElementById('totalDisplay')
+      .innerHTML = Transaction.total
   }
 }
 
