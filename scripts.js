@@ -25,7 +25,7 @@ const Transaction = {
   incomes() {
     let income = 0
 
-    transactions.forEach(transaction => {
+    this.all.forEach(transaction => {
       if (transaction.amount > 0) {
         income += transaction.amount
       }
@@ -36,7 +36,7 @@ const Transaction = {
   expenses() {
     let expenses = 0
 
-    transactions.forEach(transaction => {
+    this.all.forEach(transaction => {
       if (transaction.amount < 0) {
         expenses += transaction.amount
       }
