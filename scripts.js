@@ -34,13 +34,29 @@ const transactions = [
 
 const Transaction = {
   incomes() {
+    let income = 0
 
+    transactions.forEach(transaction => {
+      if (transaction.amount > 0) {
+        income += transaction.amount
+      }
+    })
+
+    return income
   },
   expenses() {
+    let expenses = 0
 
+    transactions.forEach(transaction => {
+      if (transaction.amount < 0) {
+        expenses += transaction.amount
+      }
+    })
+
+    return expenses
   },
   total() {
-
+    return this.incomes() + this.expenses()
   }
 }
 
