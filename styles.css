@@ -54,6 +54,7 @@ button {
 }
 
 button:hover,
+.button.remove:hover,
 .button.cancel:hover {
   opacity: 0.7;
 }
@@ -74,6 +75,10 @@ button:hover,
   align-items: center;
   justify-content: center;
   color: var(--cancelation-color);
+}
+
+.button.remove {
+  cursor: pointer;
 }
 
 header {
