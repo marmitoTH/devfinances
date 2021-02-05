@@ -22,7 +22,7 @@
   --rainbow-background-color: linear-gradient(0deg, #30a068, transparent 99%),
                               linear-gradient(45deg, #82c97b, #50b895);
 
-  --border-radius: .5rem;
+  --border-radius: 10px;
 
   --modal-overlay: rgba(0, 0, 0, .7);
 
