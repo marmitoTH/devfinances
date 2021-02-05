@@ -89,7 +89,7 @@ const DOM = {
 
     document
       .getElementById('outcomeDisplay')
-      .innerHTML = Utils.formatCurrency(Transaction.expenses())
+      .innerHTML = Utils.formatCurrency(Transaction.expenses(), false)
 
     document
       .getElementById('totalDisplay')
