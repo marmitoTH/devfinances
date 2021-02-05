@@ -108,7 +108,7 @@ const Utils = {
     const splittedDate = date.split('-')
     return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
   },
-  formatCurrency(value) {
+  formatCurrency(value, signed = true) {
     const signal = Number(value) < 0 ? '-' : ''
 
     value = String(value).replace(/\D/g, '')
@@ -118,7 +118,7 @@ const Utils = {
       currency: 'BRL'
     })
 
-    return signal + value
+    return signed ? signal + value : value
   }
 }
 
