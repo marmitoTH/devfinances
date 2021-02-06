@@ -29,6 +29,18 @@
   --cancelation-color: red;
 }
 
+@keyframes move-up {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
 body {
   background-color: var(--body-background-color);
   font: 1rem 'Poppins', sans-serif;
@@ -174,6 +186,19 @@ input {
 .card {
   padding: 2rem;
   border-radius: var(--border-radius);
+  animation: move-up 500ms backwards;
+}
+
+.card.income {
+  animation-delay: 100ms;
+}
+
+.card.outcome {
+  animation-delay: 200ms;
+}
+
+.card.total {
+  animation-delay: 300ms;
 }
 
 .card + .card {
