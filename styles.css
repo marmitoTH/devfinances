@@ -235,10 +235,12 @@ thead {
   text-align: left;
 }
 
-#transaction {
+#transactions {
   display: block;
   width: 100%;
   overflow-x: auto;
+  animation: fade-in 500ms backwards;
+  animation-delay: 1s;
 }
 
 #data-table {
