@@ -1,4 +1,6 @@
-<h1 align='center'>dev.finance$</h1>
+<p align='center'>
+  <img src='https://user-images.githubusercontent.com/25598040/108249337-b6dade80-7133-11eb-8904-2914f0ab7a5d.png'>
+</p>
 
 ## 🔍 About
 
